@@ -14,7 +14,7 @@ The aim of this study is to carry out a comprehensive comparison of ten clusteri
 - [Documentation](#Documentation)
 
 ## Abstract <div id='Abstract'>
-A detailed evaluation of the ten clustering algorithms was carried out using the Silhouette, Davies-Bouldin, and Calinski-Harabasz metrics. The results revealed that clustering algorithms significantly depend on the dataset and the classification objective. Overall, it was observed that K-means, UPGMA, and Mixture of Gaussians achieved the best results in terms of all three metrics for the given dataset. However, it was noted that some algorithms, such as DBSCAN, exhibited suboptimal results. In general, this study provides a useful guide for selecting the most appropriate hyperparameters according to the clustering algorithm used.
+A detailed evaluation of the ten clustering algorithms was carried out using the Silhouette, Davies-Bouldin, and Calinski-Harabasz metrics. The results revealed that clustering algorithms significantly depend on the dataset and the classification objective. Overall, it was observed that K-means, Mini-batch K-means, and Spectral Clustering achieved the best results in terms of all three metrics for the given dataset. However, it was noted that some algorithms, such as DBSCAN, exhibited suboptimal results. In general, this study provides a useful guide for selecting the most appropriate hyperparameters according to the clustering algorithm used.
   
 ## Algorithms <div id='Algorithms'>
 The algorithms that we have used for the study are as follows:

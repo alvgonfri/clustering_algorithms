@@ -29,6 +29,9 @@ The algorithms that we have used for the study are as follows:
 
 ## Datasets <div id='Datasets'>
 Prior to carrying out the analysis, the data set used for the dataset that has been used to carry out this study is presented graphically. It is a dataset containing 1000 elements, each with three characteristics. This allows us to represent them by means of the following three-dimensional graph:
+<p align= "center">
+<img width="402" alt="Dataset" src="https://github.com/alvgonfri/clustering_algorithms/assets/80347035/696646d3-60e7-49ec-94f8-7c165fe4b148">
+</p>
 
 ## Metrics <div id='Metrics'>
 The metrics that we have used for the study are as follows:
@@ -37,4 +40,4 @@ The metrics that we have used for the study are as follows:
 - Davies-Bouldin index
 
 ## Documentation <div id='Documentation'>
-In this section we will explain the documentation that we have created.
+The documentation of the project is in the main folder of the repository. It is a pdf file called "ClusteringG5.pdf", it has been created with Overleaf and it is in Spanish.

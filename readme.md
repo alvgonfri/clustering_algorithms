@@ -4,72 +4,37 @@
 ## Introduction
 In this project we will implement some clustering algorithms like K-Means and DBSCAN. This algorithms will be implemented in Python and will be tested with some datasets. We will also implement some metrics to evaluate the results of the algorithms and we will create a documentation with Overleaf.
 
+The aim of this study is to carry out a comprehensive comparison of ten clustering algorithms. Three evaluation metrics commonly used in the clustering field will be used for the comparison. The clustering field will be used for such a comparison. The objective is to determine which clustering algorithm is more effective as a function of the hyperparameters used, making use of the same data set.
+
 ## Table of Contents
+- [Abstract](#Abstract)
 - [Algorithms](#Algorithms)
-    1. [BIRCH](#BIRCH)
-    2. [DBSCAN](#DBSCAN)
-    3. [K-means](#K-means)
-    4. [Mini-Batch K-means](#Mini-Batch-K-means)
-    5. [Mean Shift](#Mean-Shift)
-    6. [OPTICS](#OPTICS)
-    7. [Spectral Clustering](#Spectral-Clustering)
-    8. [Mixture of Gaussians](#Mixtures-of-Gaussians)
-    9. [PAM](#PAM)
-    10. [UPGMA](#UPGMA)
 - [Datasets](#Datasets)
 - [Metrics](#Metrics)
-    - [Silhouette](#Silhouette)
-    - [Davies-Bouldin](#Davies-Bouldin)
-    - [Calinski-Harabasz](#Calinski-Harabasz)
 - [Documentation](#Documentation)
 
 ## Algorithms <div id='Algorithms'>
-In this section we will explain the algorithms that we have implemented.
-
-### BIRCH <div id='BIRCH'>
-BIRCH is a hierarchical clustering algorithm. It is based on the idea of clustering data into a number of subclusters, and then organizing those subclusters into a tree-like structure. The algorithm has two main steps:
-
-### DBSCAN <div id='DBSCAN'>
-
-
-
-### K-means <div id='K-means'>
-
-
-
-### Mini-Batch K-means <div id='Mini-Batch-K-means'>
-
-
-### Mean Shift <div id='Mean-Shift'>
-
-
-
-### OPTICS <div id='OPTICS'>
-
-
-### Spectral Clustering <div id='Spectral-Clustering'>
-
-
-### Mixtures of Gaussians <div id='Mixtures-of-Gaussians'>
-
-
-
-### PAM <div id='PAM'>
-
-
-### UPGMA <div id='UPGMA'>
-
+The algorithms that we have used for the study are as follows:
+- BIRCH
+- DBSCAN
+- K-means
+- Mini-Batch K-means
+- Mean Shift
+- OPTICS
+- Spectral Clustering
+- Mixture of Gaussians
+- PAM
+- UPGMA
 
 
 ## Datasets <div id='Datasets'>
-In this section we will explain the datasets that we have used.
+Prior to carrying out the analysis, the data set used for the dataset that has been used to carry out this study is presented graphically. It is a dataset containing 1000 elements, each with three characteristics. This allows us to represent them by means of the following three-dimensional graph:
 
 ## Metrics <div id='Metrics'>
-In this section we will explain the metrics that we have implemented.
-
-### Silhouette <div id='Silhouette'>
-### Davies-Bouldin <div id='Davies-Bouldin'>
-### Calinski-Harabasz <div id='Calinski-Harabasz'>
+The metrics that we have used for the study are as follows:
+- Silhouette coefficient
+- Calinski-Harabasz index
+- Davies-Bouldin index
 
 ## Documentation <div id='Documentation'>
 In this section we will explain the documentation that we have created.
